@@ -2,7 +2,7 @@
 2-tier app by using Docker
 
 # After the deployment, you shall face - Programming error (*MySQL error - table not found);
-  - Create the messages table in your MySQL database: (In Mysql running conatiner)
+ - Sol: Create the messages table in your MySQL database: (In Mysql running conatiner)
  ```bash 
      docker exec -it <ID> sh   #( To enter mysql running container - *ID = container ID) 
      mysql -u root -p          #(To access MySQL tables, db, etc.) [password - admin]
